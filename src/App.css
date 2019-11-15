@@ -1,79 +1,72 @@
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+    background-color: #af1e39ff;
+    width: 500px;
+    height: 800px;
+    padding: 20px;
+    border: 3px solid #323335ff;
+    margin: 0 auto;
 }
 
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
+    background-color: #323335ff;
     color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-}
-
-.firstButtons {
-    width: 33%;
-}
-
-.buttonDisplay1 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-top: 5%;
-}
-
-.buttonDisplay2 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.button {
-    width: 33%;
-    border-radius: 50%;
+    font-size: 30px;
+    border-radius: 10px;
     height: 50px;
-    width: 50px;
-    padding: 5% 0;
+    width: 85%;
+    padding: 10px 20px;
+    margin-top: 25px;
 }
 
-.button0 {
-    width: 66%;
+button {
+    font-size: 26px;
+    background-color: #094377ff;
+    color: white;
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 3px solid black;
     border-radius: 50%;
-    height: 50px;
     width: 100px;
-    padding: 5% 0;
+    height: 100px;
 }
 
-.allButtons {
-    width: 100%;
+.button-container {
     display: flex;
+    margin-top: 30px;
+
 }
 
-.operators {
+.left-side {
+    width: 75%;
+}
+
+.operator-container {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+
 }
 
-.operatorButtons {
-    width: 10%;
+.special-button {
+    background-color: #007291ff;
+}
+
+.operator-button {
+    background-color: #0b5d9bff;
+}
+
+.special-container {
     display: flex;
-    padding-top: 1.6%;
-    padding-left: 2%;
+
+}
+
+.number-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button:nth-child(10) {
+    width: 200px;
+    border-radius: 60px;
 }
