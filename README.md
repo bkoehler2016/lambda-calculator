@@ -39,7 +39,7 @@ Follow these steps for completing your project.
 - [ ] Your team lead will count the project as complete by merging the branch back into master.
 - [ ] Do your magic!
 
-# _Project - Lambda Calculator_
+<!-- # _Project - Lambda Calculator_ -->
 
 **A job just came down from the Big Boss!**
 
@@ -52,7 +52,7 @@ Follow these steps for completing your project.
 
 Using the design file, build out your User Interface. Before you start, look through the app structure to see what components you have to work with, then you'll start by following the steps below.
 
-**STEP 1**
+<!-- **STEP 1** -->
 
 - You have been given a Data.js file that contains some arrays.
 - Find a way to bring (import) the data into the necessary files, but do not change the data.
@@ -70,19 +70,19 @@ import { numbers } from '../path/to/data';
 const [numberState, setNumberState] = useState(numbers);
 ```
 
-**Step 3**
+<!-- **Step 3** -->
 
 - Map over the data and dynamically render components for each piece of data in the arrays.
 - You will need to import the component that you'll render in the map function.
 
-**STEP 4**
+<!-- **STEP 4** -->
 
 - Import the wrapper button components into `App.js`
 - Import the display components into `App.js` as well
 - Compose all the components inside the `App` component to get your calculator rendering on the DOM
 
+<!-- **STEP 5 - (STRETCH)** -->
 
-**STEP 5 - (STRETCH)**
 - In each component, start designing things to match the design file
 - Style your project using any of the techniques from the module
 - Don't forget about className vs class on your JSX elements!!
@@ -104,9 +104,9 @@ This is where you're JavaScript skills are really going to be stretched. Remembe
 
 **Here is your design spec:**
 
-<img src="https://tk-assets.lambdaschool.com/67a0a891-ba8c-429e-8d33-bc9e5b9f4e7c_ScreenShot2019-07-02at5.16.56PM.png" alt="finished calculator" width="400px" />
+<!-- <img src="https://tk-assets.lambdaschool.com/67a0a891-ba8c-429e-8d33-bc9e5b9f4e7c_ScreenShot2019-07-02at5.16.56PM.png" alt="finished calculator" width="400px" /> -->
 
-## Pro Tips:
+<!-- ## Pro Tips: -->
 
 - Plan your app before writing any code. How many components will you be using? And how will they fit together?
 - Where will your data be stored in state? Which components need to receive that data via props?
@@ -121,6 +121,6 @@ Do not attempt stretch problems until MVP has been reached and a final commit ha
 
 - STEP 5 from above
 - Finish the logic so the calculator is fully functional. Feel free to change the array data, or lose it entirely, as you see fit.
-- Finish styling all of the buttons and get your calculator to closely resemble the given design spec. 
+- Finish styling all of the buttons and get your calculator to closely resemble the given design spec.
 - Add some icons to improve the operator characters aesthetics. Research any icon/font library and implement it into your project.
 - Convert your CSS styling to use Sass/Scss
