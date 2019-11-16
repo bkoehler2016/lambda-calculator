@@ -23,6 +23,7 @@ function App() {
   };
   const addOperator = operator => {
     if (operator === "=") {
+      // eslint-disable-next-line no-eval
       setDisplayValue(eval(displayValue));
     } else {
       setDisplayValue(displayValue => displayValue + " " + operator + " ");
